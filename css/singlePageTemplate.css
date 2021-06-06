@@ -158,7 +158,7 @@ ul li:hover a {
 /* Parallax Section */
 .banner {
 	background-color: #2D9AB7;
-	background-image: url(../images/parallax.png);
+	background-image: url(../images/parallax.jpg);
 	height: 400px;
 	background-attachment: fixed;
 	background-size: cover;
@@ -185,7 +185,7 @@ ul li:hover a {
    text-shadow:
        1px 1px 0 #000,
       1px -1px 0 #000,
-       1px 1px 0 #000;
+       1px 1px 10px #fff700;
 	text-align: left;
 	padding-right: 100px;
 	width: 30%;
@@ -260,7 +260,7 @@ footer .footer_column p {
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-color: #717070;
+	background-color: #5B4032;
 	color: #FFFFFF;
 	text-transform: uppercase;
 	font-weight: lighter;
@@ -538,9 +538,10 @@ blockquote p::after {
 }
 
 blockquote cite {
-   font-size: 2.5rem;
+   font-size: 2.1rem;
+   font-weight: bolder;
 }
-..columnHeader {
+.columnHeader {
 	width: 29%;
 	text-align: justify;
 	font-weight: bold;
@@ -558,4 +559,16 @@ blockquote cite {
 	font-size: 22px;
 	font-weight: 600;
 	padding-bottom: 80px;
+}
+
+
+.copyright_footer {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: darkslategray;
+	color: white;
+	text-transform: full-width;
+	font-weight: bolder;
+	letter-spacing: 2px;
 }
